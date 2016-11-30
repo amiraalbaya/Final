@@ -1,0 +1,103 @@
+current directory: /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20161130-7211-ip70hz.rb extconf.rb
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.1.0
+checking for gzdopen() in -lz... yes
+checking for iconv... yes
+************************************************************************
+IMPORTANT NOTICE:
+
+Building Nokogiri with a packaged version of libxml2-2.9.4.
+
+Team Nokogiri will keep on doing their best to provide security
+updates in a timely manner, but if this is a concern for you and want
+to use the system library instead; abort this installation process and
+reinstall nokogiri as follows:
+
+    gem install nokogiri -- --use-system-libraries
+        [--with-xml2-config=/path/to/xml2-config]
+        [--with-xslt-config=/path/to/xslt-config]
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+
+Note, however, that nokogiri is not fully compatible with arbitrary
+versions of libxml2 provided by OS/package vendors.
+************************************************************************
+Extracting libxml2-2.9.4.tar.gz into tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4... OK
+Running 'configure' for libxml2 2.9.4... OK
+Running 'compile' for libxml2 2.9.4... ERROR, review '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/compile.log' to see what happened. Last lines are:
+========================================================================
+Making all in libxml
+make[3]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include/libxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include/libxml'
+make[3]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+make[2]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+Making all in .
+make[2]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+  CC       SAX.lo
+/bin/bash: ./libtool: No such file or directory
+Makefile:1248: recipe for target 'SAX.lo' failed
+make[2]: *** [SAX.lo] Error 127
+make[2]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+Makefile:1440: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+Makefile:859: recipe for target 'all' failed
+make: *** [all] Error 2
+========================================================================
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/$(RUBY_BASE_NAME)2.3
+	--help
+	--clean
+	--use-system-libraries
+	--enable-static
+	--disable-static
+	--with-zlib-dir
+	--without-zlib-dir
+	--with-zlib-include
+	--without-zlib-include=${zlib-dir}/include
+	--with-zlib-lib
+	--without-zlib-lib=${zlib-dir}/lib
+	--enable-cross-build
+	--disable-cross-build
+/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:366:in `block in execute': Failed to complete compile task (RuntimeError)
+	from /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:337:in `chdir'
+	from /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:337:in `execute'
+	from /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:111:in `compile'
+	from /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/mini_portile2-2.1.0/lib/mini_portile2/mini_portile.rb:150:in `cook'
+	from extconf.rb:365:in `block (2 levels) in process_recipe'
+	from extconf.rb:258:in `block in chdir_for_build'
+	from extconf.rb:257:in `chdir'
+	from extconf.rb:257:in `chdir_for_build'
+	from extconf.rb:364:in `block in process_recipe'
+	from extconf.rb:263:in `tap'
+	from extconf.rb:263:in `process_recipe'
+	from extconf.rb:556:in `<main>'
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/extensions/x86_64-linux/2.3.0/nokogiri-1.6.8.1/mkmf.log
+
+extconf failed, exit code 1

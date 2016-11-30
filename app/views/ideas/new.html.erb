@@ -1,5 +1,12 @@
-<h1>New Idea</h1>
+	<%= simple_form_for(:sessions) do |f| %>
+	<%= f.error_notification %>
 
-<%= render 'form' %>
+	<div class="form-inputs">
+		<%= f.input :email %>
+		<%= f.input :password %>
+	</div>
 
-<%= link_to 'Back', ideas_path %>
+	<div class="form-actions">
+		<%= f.button :submit, "Login" %>
+	</div>
+<% end %>

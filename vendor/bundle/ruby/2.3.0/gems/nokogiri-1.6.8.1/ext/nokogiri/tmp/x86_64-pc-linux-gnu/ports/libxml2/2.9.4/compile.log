@@ -1,0 +1,24 @@
+make  all-recursive
+make[1]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+Making all in include
+make[2]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+Making all in libxml
+make[3]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include/libxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include/libxml'
+make[3]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+make[2]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4/include'
+Making all in .
+make[2]: Entering directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+  CC       SAX.lo
+/bin/bash: ./libtool: No such file or directory
+Makefile:1248: recipe for target 'SAX.lo' failed
+make[2]: *** [SAX.lo] Error 127
+make[2]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+Makefile:1440: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/tartan/Desktop/f/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.6.8.1/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports/libxml2/2.9.4/libxml2-2.9.4'
+Makefile:859: recipe for target 'all' failed
+make: *** [all] Error 2
